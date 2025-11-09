@@ -1,0 +1,12 @@
+1. The git terminal is a computer program that lets a person access files 
+or type in commands to run. It can be found in VS Code by pressing the "view" open 
+and then after clicking on "terminal." It can also be found by searching through the Mac for a terminal application. The terminal accesses git and allows for
+codes to be pushed into the actual github website, meaning it uploads your code files
+for you in an easier way. There are also other commands that allow the user to create directories, locate throughout areas in the computer, and create files.
+
+2. Git is the actual program that allows pushing, saved changes on files, and commands. It can also be helpful in tracking changes to your codes.
+Github is the actual website that contains the files pushed through Git. It's used for more collaborative projects and allows users to share codes efficiently.
+
+3. To fork a repository, or copy another person's github repository, you first have to 
+open up the wanted repository page, click on the fork option, and after click on your account
+to view your own personal copy of the repository. Once forked, the user can click the code button, copy either the https or ssh key link, then type in their terminal: "git clone https://(the link).git". Once cloned, the user moves into that new folder, "cd (forked repo title), and can edit from there. To push the changes back into their own personal forked repository, the user can then type the commands: "git add . / git commit -m "(personal message)" / git push /. That will push those changes into the repository. What is optional, but extremely useful, is commanding "git status" throughout the code to ensure the files are staged or unstaged. If the user wants to submit a pull request to the original user, meaning the owner will merge and add the edits onto their original main branch, then editor would go to "fork" on the cloned repo, click "contribute," and then "open pull request."
